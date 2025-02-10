@@ -18,9 +18,10 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     height: 40px;
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-right: .5rem;
-    background-color: ${ props => props.theme.primary };
+    margin: 8px;
+    background-color: ${ props => props.theme["green-300"] };
 
     /* ${props => {
         return css`background-color: ${buttonVariants[props.variant]}`
