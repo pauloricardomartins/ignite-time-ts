@@ -22,5 +22,6 @@ export const GlobalStyle = createGlobalStyle`
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
     }
 `
